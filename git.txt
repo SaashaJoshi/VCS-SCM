@@ -1,0 +1,69 @@
+_____________________________________
+
+Commands (1):
+	diff 
+	patch
+	git config --global user.name 'name'
+	git config --global user.email 'email'
+	git init
+	git add 
+	git add -A
+	git commit
+	git commit -m 'mssg'
+	git status
+	git log
+_____________________________________
+
+Commands (2):
+	git add -p
+	git add *
+	git commit -a -m 'mssg'
+	git commit --amend -m 'mssg'
+	git log -p
+	git log --stat
+	git show
+	git diff
+	git diff --staged
+	git rm
+	git mv
+	.gitignore
+	git checkout
+	git checkout -p
+	git reset HEAD
+	git reset -p
+	git revert HEAD
+_____________________________________
+
+Commands (3):
+	git branch
+	git branch name
+	git branch -d
+	git branch -D
+	git checkout
+	git checkout -b new-branch
+	git merge
+	git merge --abort
+	git log --graph
+	git log --graph --oneline
+_____________________________________
+
+Commands (4):
+	git clone 
+	git push
+	git pull
+	git config --global credential.helper cache (50 mins.)
+	git push --set-upstream origin branch-name
+	git remote
+	git remote -v
+	git remote show origin
+	git branch -r
+	git 
+_____________________________________
+
+Extra:
+	Hash (Cryptographic Hash Functions)
+	SHA1
+	SSH key-pair
+	Credential helper
+_____________________________________
+
