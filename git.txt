@@ -45,6 +45,7 @@ Commands (3):
 	git merge --abort
 	git log --graph
 	git log --graph --oneline
+	git log --graph --oneline --all
 _____________________________________
 
 Commands (4):
@@ -56,9 +57,11 @@ Commands (4):
 	git remote
 	git remote -v
 	git remote show origin
+	git remote update
 	git branch -r
 	git fetch
 	git log origin/master
+	git log -p origin/master
 	git merge origin/master
 _____________________________________
 
