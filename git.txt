@@ -54,6 +54,7 @@ Commands (4):
 	git pull
 	git config --global credential.helper cache (50 mins.)
 	git push --set-upstream origin branch-name
+	git push -u origin branch-name
 	git remote
 	git remote -v
 	git remote show origin
@@ -63,6 +64,7 @@ Commands (4):
 	git log origin/master
 	git log -p origin/master
 	git merge origin/master
+	git rebase
 _____________________________________
 
 Extra:
