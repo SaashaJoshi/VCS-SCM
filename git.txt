@@ -57,7 +57,9 @@ Commands (4):
 	git remote -v
 	git remote show origin
 	git branch -r
-	git 
+	git fetch
+	git log origin/master
+	git merge origin/master
 _____________________________________
 
 Extra:
