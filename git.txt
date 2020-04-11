@@ -77,6 +77,12 @@ Commands (4):
 	squash
 	fix up
 	git push -f
+	git commit -a --amend
+_____________________________________
+
+Commands (5):
+	git submodule add -b master repo-url
+	git submodule init
 _____________________________________
 
 Extra:
@@ -84,5 +90,16 @@ Extra:
 	SHA1
 	SSH key-pair
 	Credential helper
+	Nit
+	PEP8 Style Guide
+	Mailing Lists
+	IRC Channels
+	Slack Channels
+	Issue / Bug Tracker
+	Bugzilla
+	CI/CD
+	Jenkins
+	Travis
+	YAML	
 _____________________________________
 

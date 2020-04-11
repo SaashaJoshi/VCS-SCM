@@ -1,0 +1,4 @@
+[submodule "diff__patch"]
+	path = diff__patch
+	url = /home/saasha/SublimeText/VCS-SCM/diff__patch/
+	branch = master
