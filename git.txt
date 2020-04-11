@@ -71,6 +71,14 @@ Commands (4):
 	git rebase --abort
 _____________________________________
 
+Commands (4):
+	git rebase -i
+	pick
+	squash
+	fix up
+	git push -f
+_____________________________________
+
 Extra:
 	Hash (Cryptographic Hash Functions)
 	SHA1
