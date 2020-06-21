@@ -1,0 +1,32 @@
+_____________________________________
+Commands:
+	diff
+	patch
+_____________________________________
+
+>> cp bug_file.py bug_file_original.py
+
+>> cp bug_file.py bug_file_fixed.py
+
+>> diff -u bug_file_original.py bug_file_fixed.py > bug_changes.diff
+
+>> cat bug_changes.diff
+	--- bug_file_original.py	2020-04-06 12:22:47.532579864 +0530
+	+++ bug_file_fixed.py	2020-04-06 12:23:55.353128924 +0530
+	@@ -1,5 +1,5 @@
+	 def helloWorld():
+	-	print("Hello World")
+	+	print("Hello World, Hello Saasha")
+	 
+	 if __name__ == '__main__':
+	 	helloWorld
+
+>> patch bug_file.py < bug_changes.diff
+	patching file bug_file.py
+
+>> cat bug_file.py
+	def helloWorld():
+		print("Hello World, Hello Saasha")
+
+	if __name__ == '__main__':
+		helloWorld

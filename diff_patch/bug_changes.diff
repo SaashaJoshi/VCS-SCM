@@ -1,0 +1,9 @@
+--- bug_file_original.py	2020-04-06 12:22:47.532579864 +0530
++++ bug_file_fixed.py	2020-04-06 12:23:55.353128924 +0530
+@@ -1,5 +1,5 @@
+ def helloWorld():
+-	print("Hello World")
++	print("Hello World, Hello Saasha")
+ 
+ if __name__ == '__main__':
+ 	helloWorld

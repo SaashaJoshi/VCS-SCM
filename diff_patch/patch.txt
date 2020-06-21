@@ -1,0 +1,43 @@
+_____________________________________
+Commands:
+	patch
+_____________________________________
+
+>> cat bug_file.py
+	def helloWorld():
+		print("Hello World")
+
+	if __name__ == '__main__':
+		helloWorld
+
+>> cat bug_file_fix.py
+	def helloWorld():
+		print("Hello World")
+
+	if __name__ == '__main__':
+		helloWorld
+
+>> diff -u bug_file.py bg_file_fix.py > changes.diff
+
+>> cat changes.diff
+	--- bug_file.py	2020-04-06 11:41:37.228401839 +0530
+	+++ bug_file_fix.py	2020-04-06 11:41:35.720157531 +0530
+	@@ -1,5 +1,5 @@
+	-def helloWorld():
+	-	print("Hello World")
+	+def holaWorld():
+	+	print("Hola World")
+	 
+	 if __name__ == '__main__':
+	-	helloWorld
+	+	holaWorld
+
+>> patch bug_file.py < changes.diff
+	patching file bug_file.py
+
+>> cat bug_file.py
+	def holaWorld():
+		print("Hola World")
+
+	if __name__ == '__main__':
+		holaWorld
